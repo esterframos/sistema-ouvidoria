@@ -1,3 +1,6 @@
+"""
+Módulo responsável pelas regras de negócio do sistema de ouvidoria.
+"""
 from operacoesbd import *
 
 def listarManifestacoes(conexao):
@@ -77,3 +80,4 @@ def excluiManifestacao(conexao):
         print('\nManifestação excluída com sucesso!\n')
     else:
         print('\nNenhuma manifestação encontrada com esse código.\n')
+
