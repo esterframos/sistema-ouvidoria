@@ -1,20 +1,11 @@
 '''
-Análise e Desenvolvimento de Sistemas
-Programação Estruturada com Python - Prof. Daniel Abella
-
-Ana Carolina Vasconcelos Barreto
-Ester de Farias Ramos
-Jadeilson Teixeira Faustino Junior
-Mirelly dos Santos Silva
-Pedro Henrique Araújo Ferreira
-Warlley Kaio dos Santos Firmino
-
-PROJETO OUVIDORIA
+Projeto acadêmico - Sistema de Ouvidoria
 '''
 from ouvidoria import *
 from operacoesbd import *
 
-conexao = criarConexao('localhost', 'root', 'ester013', 'ouvidoria')
+# Dados de conexão devem ser configurados pelo usuário
+conexao = criarConexao('localhost', 'usuario', 'senha', 'ouvidoria')
 
 
 print('========= Setor de Ouvidoria ==========')
@@ -54,4 +45,5 @@ print('\nVocê escolheu sair do sistema')
 print('Obrigada por usar o sistema de ouvidoria! Volte sempre.')
 
 encerrarConexao(conexao)
+
 
