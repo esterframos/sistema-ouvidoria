@@ -10,7 +10,7 @@ Sistema simples de ouvidoria em Python, organizado em módulos, com menu princip
 
 ## Estrutura do Projeto
 - menu.py: arquivo principal do sistema
-- meria.py: funções e regras do sistema
+- ouvidoria.py: funções e regras do sistema
 
 ## Objetivo
 Aplicar conceitos iniciais de programação, lógica, funções (`def`) e organização de código.
